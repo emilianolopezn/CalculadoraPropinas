@@ -24,14 +24,14 @@
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Total de la cuenta" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="v1g-6f-bg1">
                                 <rect key="frame" x="16" y="28" width="378" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <nil key="textColor"/>
+                                <color key="textColor" red="0.50588235294117645" green="0.51372549019607838" blue="0.51764705882352946" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="20"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="20" translatesAutoresizingMaskIntoConstraints="NO" id="uxK-kX-iwU">
                                 <rect key="frame" x="8" y="78" width="378" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="tintColor" red="1" green="0.45363736278977662" blue="0.30528187615846802" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="tintColor" red="0.28936639224507205" green="0.3061008585400905" blue="0.48519306282722519" alpha="1" colorSpace="calibratedRGB"/>
                                 <connections>
                                     <action selector="doChangePorcentajePropina:" destination="BYZ-38-t0r" eventType="valueChanged" id="pR0-Rb-fih"/>
                                 </connections>
@@ -40,7 +40,7 @@
                                 <rect key="frame" x="10" y="116" width="374" height="43"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Helvetica-Light" family="Helvetica" pointSize="37"/>
-                                <nil key="textColor"/>
+                                <color key="textColor" red="0.50458115183246077" green="0.50458115183246077" blue="0.50458115183246077" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Propina:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JUf-Am-lhO">
@@ -54,7 +54,7 @@
                                 <rect key="frame" x="10" y="196" width="374" height="43"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Helvetica-Light" family="Helvetica" pointSize="37"/>
-                                <nil key="textColor"/>
+                                <color key="textColor" red="0.50458115183246077" green="0.50458115183246077" blue="0.50458115183246077" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Total con propina:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Jt-tb-k7f">
@@ -68,7 +68,7 @@
                                 <rect key="frame" x="10" y="276" width="374" height="43"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Helvetica-Light" family="Helvetica" pointSize="37"/>
-                                <nil key="textColor"/>
+                                <color key="textColor" red="0.50458115183246077" green="0.50458115183246077" blue="0.50458115183246077" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>

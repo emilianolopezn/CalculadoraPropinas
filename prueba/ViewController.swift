@@ -17,9 +17,13 @@ class ViewController: UIViewController {
     @IBOutlet weak var lblCantidadTotal: UILabel!
 
     @IBAction func doChangePorcentajePropina(_ sender: Any) {
+        //Calcular valores
         let totalCuenta = Double(txtTotal.text!)
         let porcentajePropina = Int(sldPorcentajePropina.value)
         let cantidadPropina = totalCuenta! * (Double(porcentajePropina) / 100)
+        
+        
+        //Establecer textos
         lblPorcentajePropina.text = "\(porcentajePropina)%"
         lblCantidadPropina.text = "$\(cantidadPropina)"
         lblCantidadTotal.text = "$\(cantidadPropina + totalCuenta!)"
